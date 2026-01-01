@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C4D606122F068B01009FFF2B /* Textview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D606112F068B01009FFF2B /* Textview.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C4D606032F064587009FFF2B /* Greeting-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greeting-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D606112F068B01009FFF2B /* Textview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		C4D605FA2F064587009FFF2B = {
 			isa = PBXGroup;
 			children = (
+				C4D606112F068B01009FFF2B /* Textview.swift */,
 				C4D606052F064587009FFF2B /* Greeting-App */,
 				C4D606042F064587009FFF2B /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D606122F068B01009FFF2B /* Textview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
